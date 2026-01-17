@@ -1,0 +1,13 @@
+{
+  "Group": "nomaj",
+  "Name": "ArrowCounter",
+  "version": "1.0.0",
+  "Description": "Display the count of arrows when holding a bow/crossbow.",
+  "Authors": [
+    {
+      "Name": "nomaj"
+    }
+  ],
+  "Main": "nomaj.arrowcounter.ArrowCounterMod",
+  "IncludesAssetPack": true
+}

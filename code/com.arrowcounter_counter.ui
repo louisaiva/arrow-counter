@@ -1,0 +1,22 @@
+Group #ArrowCounterHUD {
+    LayoutMode: Center;
+    Anchor: (Horizontal: 10, Top: 60, Width: 200, Height: 50);
+
+    Label #ArrowCount {
+        Style: (FontSize: 28, Alignment: Center, TextColor: #ffffffff, RenderBold: true);
+        Anchor: (Top: 10, Left: 5, Right: 5, Height: 30);
+        Text: "0";
+    }
+    
+    Group #ArrowIcon {
+        Background: "arrow-icon.png";
+        Anchor: (Width: 32, Height: 32, Right: 10);
+    }
+
+    Group #NoArrowIcon {
+        Background: "no-arrow-icon.png";
+        Anchor: (Width: 32, Height: 32, Right: 10);
+        Visible: false;
+    }
+
+}
